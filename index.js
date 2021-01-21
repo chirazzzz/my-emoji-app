@@ -1,6 +1,6 @@
 // Make the pop and shift buttons work as well
 
-const myEmojis = ["👨‍💻", "⛷", "🍲"]
+const myEmojis = ["👨‍💻", "🏏", "🏖️", "🥃", "🥾"]
 const emojiInput = document.getElementById("emoji-input")
 
 function renderEmojis() {
@@ -11,7 +11,7 @@ function renderEmojis() {
         emoji.textContent = myEmojis[i]
         emojiContainer.append(emoji)
     }
-}
+} 
 
 renderEmojis()
 
